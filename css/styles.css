@@ -1,0 +1,31 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: auto; /* Add scrolling to main content if it overflows */
+}
+
+.center-nav {
+    display: flex;
+    justify-content: center;
+}
+
