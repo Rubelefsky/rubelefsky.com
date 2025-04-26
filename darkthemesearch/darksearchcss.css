@@ -265,3 +265,23 @@ footer {
     background-color: var(--secondary-color, #2b3245);
     border-radius: 8px;
 }
+/* Add this to your existing CSS */
+
+/* Visitor Counter Styling */
+.visitor-counter {
+    text-align: center;
+    margin: 40px 0 20px;
+    padding: 15px;
+}
+
+.visitor-counter p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#visit-count {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--accent-color, #ff8a00);
+    margin: 0 5px;
+}
